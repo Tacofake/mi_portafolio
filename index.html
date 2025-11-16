@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angel David Mayorga Noboa - Portafolio</title>
+</head>
+
+<body>
+    <!-- Encabezado principal -->
+    <header>
+        <h1>Angel David Mayorga Noboa</h1>
+        <p>
+            Estudiante de Sistemas: creando bases sólidas para el desarrollo
+            tecnológico.
+        </p>
+        <img src="imagenes/Avatar.jpeg" alt="Foto de perfil de Angel David Mayorga" width="200" />
+    </header>
+
+    <!-- Navegación -->
+    <nav aria-label="Índice de contenidos">
+        <h2>Índice</h2>
+        <ul>
+            <li><a href="#sobre_mi">Sobre mí</a></li>
+            <li><a href="#intereses">Intereses</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#multimedia">Multimedia</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main>
+        <!-- Sección: Sobre mí -->
+        <section id="sobre_mi">
+            <h2>Sobre mí</h2>
+            <p>
+                Soy un estudiante apasionado por la <strong>tecnología</strong> y el
+                desarrollo de <em>software</em>. Me encanta aprender nuevas
+                habilidades y enfrentar desafíos que me permitan
+                <mark>crecer</mark> profesionalmente.
+            </p>
+        </section>
+
+        <!-- Sección: Intereses -->
+        <section id="intereses">
+            <h2>Intereses</h2>
+            <ul>
+                <li>Desarrollo web</li>
+                <li>Inteligencia artificial</li>
+                <li>Videojuegos</li>
+            </ul>
+        </section>
+
+        <!-- Sección: Habilidades -->
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Habilidad</th>
+                        <th>Nivel</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Programación en Java</td>
+                        <td>Intermedio</td>
+                    </tr>
+                    <tr>
+                        <td>Desarrollo web</td>
+                        <td>Básico</td>
+                    </tr>
+                    <tr>
+                        <td>Inglés</td>
+                        <td>B2</td>
+                    </tr>
+                    <tr>
+                        <td>Matemáticas</td>
+                        <td>Intermedio</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Una pequeña tabla de mis habilidades</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <!-- Sección: Multimedia -->
+        <section id="multimedia">
+            <h2>Multimedia</h2>
+            <audio controls>
+                <source src="Audio/audio_presentacion.mp3" type="audio/mpeg">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+        </section>
+
+        <!-- Sección: Contacto -->
+        <section id="contacto">
+            <h2>Formulario de contacto</h2>
+            <form action="#" method="post">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required />
+                </div>
+
+                <div>
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required />
+                </div>
+
+                <div>
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" name="edad" required />
+                </div>
+
+                <div>
+                    <label for="genero">Género:</label>
+                    <select id="genero" name="genero" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="femenino">Femenino</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+
+                <div>
+                    <p><strong>Intereses:</strong></p>
+                    <div>
+                        <input type="checkbox" id="desarrollo-web" name="intereses" value="desarrollo-web" />
+                        <label for="desarrollo-web">Desarrollo web</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="inteligencia-artificial" name="intereses"
+                            value="inteligencia-artificial" />
+                        <label for="inteligencia-artificial">Inteligencia artificial</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="videojuegos" name="intereses" value="videojuegos" />
+                        <label for="videojuegos">Videojuegos</label>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="comentarios">Mensaje:</label> <br>
+                    <textarea id="comentarios" name="comentarios" rows="5" cols="50"></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" value="Enviar" />
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025 Angel David Mayorga Noboa. Todos los derechos reservados.</p>
+        <p><strong>Redes Sociales:</strong></p>
+        <p>
+            <a href="https://www.instagram.com/tacofake2/" target="_blank" rel="noopener noreferrer">Instagram</a> |
+            <a href="https://github.com/Tacofake" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </p>
+    </footer>
+</body>
+
+</html>
